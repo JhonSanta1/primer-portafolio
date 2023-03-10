@@ -1,0 +1,46 @@
+.titulo4{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+    
+}
+
+.container4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    flex-direction: row;
+}
+
+.galeria4{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19);
+    float: left;
+    text-align: center;
+}
+
+.piedefoto4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.foto4{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.galeria4:hover{
+    border: 1px solid white;
+    transform: scale(1.15);
+}
+
+@media (max-width: 700px){
+    .container4{
+        flex-direction: column;
+    }
+}
